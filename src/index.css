@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ body{
+  overflow-x: hidden;
+  min-width: 100px;
+} 
+.navigation{
+  max-width: 100%;
+}
+.navbar {
+  background-color: #53747e;
+  height: 55px; 
+  position:fixed;
+  z-index: 1000;
+  top:0;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav ul {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  padding: 18px;
+  list-style: none;
+  justify-content: right;
+  
+}
+.navbar a{
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  float: right;
+}
+
+@media screen and (max-width:800) {
+  .navigation{
+    max-width: 800px;
+    display: none;
+
+  }
+  .navbar{
+    display:none;
+  }
+
+}
+
+
+
+

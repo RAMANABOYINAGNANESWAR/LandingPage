@@ -1,0 +1,38 @@
+.case-container{
+    background-color:#ebebeb;
+  }
+
+  .marquee-main{
+    width: 95%;
+    margin: auto;
+    
+  }
+  .marquee-main1{
+    margin-top: 20px;
+  }
+  .marquee{
+    padding-bottom: 50px;
+  }
+  .marquee-img{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+  }
+  .marquee-img img{
+    height: 100px;
+    width: 150px;
+    transition: transform 0.1s ease;
+  }
+  
+ 
+  .slick-slide > div {
+    margin: 0 10px;
+
+  }
+  @media screen and (max-width:850px) {
+    .marquee-main{
+      width: 800px;
+    }
+  }

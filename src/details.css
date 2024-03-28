@@ -1,0 +1,26 @@
+.details{
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+  .details img{
+    height: 60px;
+  }
+  .details h2{
+    line-height: 40px;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .details h4{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 3px;
+  }
+  
+  @media screen and (min-width:850px) {
+    .details{
+      width: 800px;
+    }
+    .details h2{
+      margin-left: 100px;
+    }
+  }
